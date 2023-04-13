@@ -1,0 +1,12 @@
+.anim{
+  background:aqua;
+  height: 10em;
+  width:10em;
+  animation:movement 5s infinite;
+  position:relative;
+}
+
+@keyframes movement{
+  from{left: 0%;}  
+  to{left:100%;}
+}
